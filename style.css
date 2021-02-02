@@ -231,3 +231,108 @@ ul li:hover a::before
 .contact p {
     text-align: center;
 }
+
+#licaliz-icon {
+    position: absolute;
+    margin-top: -5px;
+    width: 35px;
+    height: 35px;
+}
+
+#licaliz-text {
+    margin-top: -40px;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+/* .flags {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 350px;
+} */
+
+@media screen and (max-width: 768px) {
+            /* ABOUT */
+    .container {
+        width: 300px;
+        height: 540px;
+        margin-left: 31px;
+        margin-top: 90px;
+    }
+
+    .pageTitle {
+        margin-left: 89px;
+        margin-top: -135px;
+        position: absolute;
+
+    }
+
+    .container p {
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .container img {
+        margin-top: -10px;
+        margin-left: 31px;
+
+    }
+
+    #licaliz-text {
+        margin-left: 55px;        
+    }
+
+    .localiz-div {
+        margin-top: 45px;
+    }
+    
+        /* CV */
+    
+
+    .card {
+        width: 300px;
+        margin-top: 160px;
+        margin-left: 27px;
+    }
+    
+    .title-cv {
+        margin-left: 60px;
+    }
+    
+    .ajust-screen {
+        margin-top: -150px;
+    }
+    
+        /* CONTACT */
+    
+    .title-contact {
+        margin-top: 100px;
+        margin-left: -30px;
+    }
+    
+    .contact {
+        width: 250px;
+        margin-left: 60px;
+        /* margin-top: 0px; */
+        
+
+    }
+
+    .contact p {
+        margin-top: -20px;
+    }
+
+    .contact:hover   {
+        transition: 0.7s;
+        width: 250px;
+        height: 100px;
+        background-color: rgb(126, 126, 126);
+        margin-top: 16%;
+        margin-left: 60px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+}
